@@ -82,7 +82,35 @@ using BlazorUI.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
+#nullable restore
+#line 11 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\_Imports.razor"
+using DemoLibrary.Handlers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+using DemoLibrary.DataAccess;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+using DemoLibrary.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+using DemoLibrary.Queries;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/people")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,6 +118,21 @@ using BlazorUI.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 16 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+       
+    List<PersonModel> people = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        people = await _mediatR.Send(new GetPersonsQuery());
+        //return Task.FromResult(people);
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private MediatR.IMediator _mediatR { get; set; }
     }
 }
 #pragma warning restore 1591

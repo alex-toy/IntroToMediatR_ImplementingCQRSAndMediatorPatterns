@@ -83,6 +83,13 @@ using BlazorUI.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\_Imports.razor"
+using DemoLibrary.Handlers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\FetchData.razor"
 using BlazorUI.Data;
 

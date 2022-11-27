@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jtlDAm4B5EwAQ4/Z+tTlU/J3mblipLYff7Ryx5e71w2k3gZj+G0vAR4XPjXy2hME3q3miUfiK0EeljTzvVFlqw==",
+  "dgSpecHash": "hY4guO3vNbELSMaBjYmwCKG7x2o9qnjgAlXkhovvwfOKShxkT0zYgzj8ei73xnkAaDRr2glhm3VVSoKC0Fk2jw==",
   "success": true,
   "projectFilePath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alexe\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
