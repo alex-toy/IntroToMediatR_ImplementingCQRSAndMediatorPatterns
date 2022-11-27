@@ -1,7 +1,7 @@
-﻿using DemoLibrary.DataAccess;
-using DemoLibrary.Models;
-using DemoLibrary.Queries;
+﻿using DemoLibrary.Queries.Persons;
 using MediatR;
+using Repository.DataAccess;
+using Repository.Models;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -19,8 +19,7 @@ namespace DemoLibrary.Handlers
 
         public Task<List<PersonModel>> Handle(GetPersonsQuery request, CancellationToken cancellationToken)
         {
-            //return Task.FromResult(new List<PersonModel>());
-            return Task.FromResult(_data.GetPeople());
+            return Task.FromResult(_data.GetAll());
         }
     }
 }

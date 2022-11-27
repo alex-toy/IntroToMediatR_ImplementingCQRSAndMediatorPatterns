@@ -10,8 +10,11 @@ C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\BlazorUI.Views.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\BlazorUI.Views.pdb
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\MediatR.dll
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\DemoLibrary.dll
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\Repository.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\DemoLibrary.pdb
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\Repository.pdb
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.csproj.AssemblyReference.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.AssemblyInfoInputs.cache
@@ -20,6 +23,7 @@ C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.MvcApplicationPartsAssemblyInfo.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.RazorComponent.input.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\RazorDeclaration\Pages\Articles.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
@@ -33,6 +37,7 @@ C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.TagHelpers.output.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.RazorCoreGenerate.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\Razor\Pages\Articles.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
@@ -59,4 +64,3 @@ C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.pdb
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\BlazorUI.genruntimeconfig.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\obj\Debug\net5.0\ref\BlazorUI.dll
-C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

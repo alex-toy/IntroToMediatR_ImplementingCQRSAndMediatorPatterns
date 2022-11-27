@@ -37,13 +37,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "MediatR": "9.0.0"
+          "MediatR": "9.0.0",
+          "Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DemoLibrary.dll": {}
         },
         "runtime": {
           "bin/placeholder/DemoLibrary.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       }
     }
@@ -97,6 +108,11 @@
       "type": "project",
       "path": "../DemoLibrary/DemoLibrary.csproj",
       "msbuildProject": "../DemoLibrary/DemoLibrary.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -355,13 +355,22 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {},
       "DemoLibrary/1.0.0": {
         "dependencies": {
-          "MediatR": "9.0.0"
+          "MediatR": "9.0.0",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "DemoLibrary.dll": {}
         },
         "compile": {
           "DemoLibrary.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "runtime": {
+          "Repository.dll": {}
+        },
+        "compile": {
+          "Repository.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2092,6 +2101,11 @@
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
     },
     "DemoLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

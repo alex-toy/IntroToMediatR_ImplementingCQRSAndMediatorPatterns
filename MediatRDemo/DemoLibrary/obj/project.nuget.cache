@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hY4guO3vNbELSMaBjYmwCKG7x2o9qnjgAlXkhovvwfOKShxkT0zYgzj8ei73xnkAaDRr2glhm3VVSoKC0Fk2jw==",
+  "dgSpecHash": "Xeg9jORMRYNmfX/bgqF002Q0NwtizcyRtX81Y36Ud/RfHEm8kp+gp9zVTny53Oegb7EDN+ktjT04hDew3PAeIQ==",
   "success": true,
   "projectFilePath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,25 @@
+﻿@page "/articles"
+@inject MediatR.IMediator _mediatR
+@using DemoLibrary.Queries.Articles
+@using DemoLibrary.Queries.Persons
+@using Repository.DataAccess
+@using Repository.Models
+@using DemoLibrary.Queries
+
+<h1>Hello, world!</h1>
+
+<ul>
+    @foreach(var a in articles)
+    {
+        <li>@a.Name @a.Price</li>
+    }
+</ul>
+
+@code {
+    List<Article> articles = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        articles = await _mediatR.Send(new GetArticlesQuery());
+    }
+}

@@ -1,31 +1,37 @@
-﻿using DemoLibrary.Models;
+﻿using Repository.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DemoLibrary.DataAccess
+namespace Repository.DataAccess
 {
-    public class DemoDataAccess : IDataAccess
+    public class DataAccess : IDataAccess
     {
         private List<PersonModel> people = new();
 
-        public DemoDataAccess()
+        public DataAccess()
         {
             people.Add(new PersonModel { Id = 1, FirstName = "alex", LastName = "reaktor" });
             people.Add(new PersonModel { Id = 2, FirstName = "shirley", LastName = "pepette" });
             people.Add(new PersonModel { Id = 3, FirstName = "william", LastName = "amin" });
         }
 
-        public List<PersonModel> GetPeople()
+        public List<PersonModel> GetAll()
         {
             return people;
         }
 
-        public PersonModel InsertPeople(string firtName, string lastName)
+        public PersonModel Create(string firtName, string lastName)
         {
             int newId = people.Max(people => people.Id) + 1;
             PersonModel personModel = new() { Id = newId, FirstName = firtName, LastName = lastName };
             people.Add(personModel);
             return personModel;
+        }
+
+        public PersonModel Delete(PersonModel person)
+        {
+            people.Remove(person);
+            return person;
         }
     }
 }

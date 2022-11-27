@@ -91,20 +91,34 @@ using DemoLibrary.Handlers;
 #nullable disable
 #nullable restore
 #line 3 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
-using DemoLibrary.DataAccess;
+using DemoLibrary.Queries.Articles;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
-using DemoLibrary.Models;
+using DemoLibrary.Queries.Persons;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+using Repository.DataAccess;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+using Repository.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
 using DemoLibrary.Queries;
 
 #line default
@@ -119,14 +133,15 @@ using DemoLibrary.Queries;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 16 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
+#line 25 "C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\BlazorUI\Pages\Index.razor"
        
     List<PersonModel> people = new();
+    List<Article> articles = new();
 
     protected override async Task OnInitializedAsync()
     {
         people = await _mediatR.Send(new GetPersonsQuery());
-        //return Task.FromResult(people);
+        articles = await _mediatR.Send(new GetArticlesQuery());
     }
 
 #line default

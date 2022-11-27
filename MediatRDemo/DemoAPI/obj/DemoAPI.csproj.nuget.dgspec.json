@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoAPI\\DemoAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoAPI\\DemoAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoAPI\\DemoAPI.csproj",
+        "projectName": "DemoAPI",
+        "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoAPI\\DemoAPI.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj": {
+                "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj",
+        "projectName": "DemoLibrary",
+        "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\DemoLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

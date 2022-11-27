@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.1/MediatR.dll": {}
         }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
       }
     }
   },
@@ -31,11 +41,17 @@
         "mediatr.9.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MediatR >= 9.0.0"
+      "MediatR >= 9.0.0",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -64,7 +80,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\source\\Csharp\\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\\MediatRDemo\\Repository\\Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,14 @@
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\bin\Debug\net5.0\DemoLibrary.deps.json
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\bin\Debug\net5.0\DemoLibrary.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\bin\Debug\net5.0\DemoLibrary.pdb
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\bin\Debug\net5.0\Repository.dll
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\bin\Debug\net5.0\Repository.pdb
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.csproj.AssemblyReference.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.AssemblyInfoInputs.cache
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.AssemblyInfo.cs
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.csproj.CoreCompileInputs.cache
+C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.csproj.CopyComplete
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\refint\DemoLibrary.dll
 C:\source\Csharp\IntroToMediatR_ImplementingCQRSAndMediatorPatterns\MediatRDemo\DemoLibrary\obj\Debug\net5.0\DemoLibrary.pdb
